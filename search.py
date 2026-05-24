@@ -1,6 +1,6 @@
 from tavily import TavilyClient
 
-tavily_api_key = TavilyClient(api_key="tavily-api-key") // Add tavily api key
+tavily_api_key = TavilyClient(api_key="tavily-api-key") # Add tavily api key
 
 def search_agent(topic) -> dict:
     print("[Search Agent] Searching for sources...")
