@@ -1,0 +1,8 @@
+streamlit
+streamlit-extras
+openai
+tavily
+bs4
+jina
+markdown
+fpdf2
