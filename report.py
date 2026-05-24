@@ -12,7 +12,7 @@ def clean_text(text: str) -> str:
 def report_agent1(system_prompt, user_prompt):
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="openrouter-api-key", #Add openrouter api key
     )
     response_text = ""
     if True:
